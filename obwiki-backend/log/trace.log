@@ -1,0 +1,396 @@
+2024-11-15 21:08:40.116 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2024-11-15 21:08:40.125 INFO  com.pzl.obwiki.ObwikiApplication                  :55   [32m                  [0;39m Starting ObwikiApplication using Java 1.8.0_131 on Centauri with PID 8792 (D:\Desktop\home\java\OceanBiologyWiki\target\classes started by 86181 in D:\Desktop\home\java\OceanBiologyWiki)
+2024-11-15 21:08:40.126 INFO  com.pzl.obwiki.ObwikiApplication                  :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-11-15 21:08:40.669 WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder  :127  [32m                  [0;39m For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-11-15 21:08:42.452 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2024-11-15 21:08:42.459 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2024-11-15 21:08:42.460 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-11-15 21:08:42.460 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-11-15 21:08:42.598 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-11-15 21:08:42.598 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2415 ms
+2024-11-15 21:08:45.768 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69   [32m                  [0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-15 21:08:45.912 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-15 21:08:46.132 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2024-11-15 21:08:46.161 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2024-11-15 21:08:46.162 INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160  [32m                  [0;39m Context refreshed
+2024-11-15 21:08:46.179 INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163  [32m                  [0;39m Found 1 custom documentation plugin(s)
+2024-11-15 21:08:46.207 INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41   [32m                  [0;39m Scanning for api listing references
+2024-11-15 21:08:46.357 INFO  com.pzl.obwiki.ObwikiApplication                  :61   [32m                  [0;39m Started ObwikiApplication in 6.835 seconds (JVM running for 9.193)
+2024-11-15 21:08:46.359 INFO  com.pzl.obwiki.ObwikiApplication                  :22   [32m                  [0;39m 项目启动成功!
+2024-11-15 21:08:46.360 INFO  com.pzl.obwiki.ObwikiApplication                  :23   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2024-11-15 21:09:13.689 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 21:09:13.690 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-11-15 21:09:13.691 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-11-15 21:09:13.752 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:09:13.753 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 21:09:13.754 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 21:09:13.755 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:09:13.811 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 21:09:13.851 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:09:13.852 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2024-11-15 21:09:13.852 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.EbookController.list
+2024-11-15 21:09:13.852 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:09:13.875 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: [{"categoryId2":0,"page":1,"size":1000}]
+2024-11-15 21:09:13.893 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-11-15 21:09:14.169 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-11-15 21:09:14.176 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 21:09:14.177 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==>  Preparing: SELECT COUNT(*) AS total FROM ebook WHERE (category2_id = ?)
+2024-11-15 21:09:14.191 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 21:09:14.191 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==> Parameters: 0(Long)
+2024-11-15 21:09:14.263 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==    Columns: total
+2024-11-15 21:09:14.263 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 21:09:14.263 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 21:09:14.263 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==        Row: 0
+2024-11-15 21:09:14.265 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m <==      Total: 1
+2024-11-15 21:09:14.266 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 21:09:14.266 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 21:09:14.266 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 21:09:14.267 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 21:09:14.267 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 21:09:14.268 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 21:09:14.268 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 21:09:14.269 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 21:09:14.269 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 21:09:14.270 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 21:09:14.270 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 21:09:14.277 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"查询成功","success":true}
+2024-11-15 21:09:14.277 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：426 ms -------------
+2024-11-15 21:09:14.286 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 21:09:14.286 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：536 ms -------------
+2024-11-15 21:09:15.946 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:09:15.947 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 21:09:15.948 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 21:09:15.948 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:09:15.948 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 21:09:15.951 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 21:09:15.952 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 21:09:15.953 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 21:09:15.954 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 21:09:15.955 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 21:09:15.955 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 21:09:15.955 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 21:09:15.955 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 21:09:15.957 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 21:09:15.958 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 21:09:15.958 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 21:09:15.959 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 21:09:15.959 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 21:09:15.960 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 21:09:15.960 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 21:09:15.964 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 21:09:15.964 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：18 ms -------------
+2024-11-15 21:09:15.971 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:09:15.972 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2024-11-15 21:09:15.972 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.EbookController.list
+2024-11-15 21:09:15.972 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:09:15.973 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: [{"page":1,"size":2}]
+2024-11-15 21:09:15.976 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==>  Preparing: SELECT COUNT(*) AS total FROM ebook
+2024-11-15 21:09:15.977 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 21:09:15.979 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==    Columns: total
+2024-11-15 21:09:15.980 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==        Row: 6
+2024-11-15 21:09:15.980 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m <==      Total: 1
+2024-11-15 21:09:15.984 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m ==>  Preparing: SELECT id,name,category1_id,category2_id,description,cover,doc_count,view_count,vote_count FROM ebook LIMIT ?
+2024-11-15 21:09:15.985 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m ==> Parameters: 2(Long)
+2024-11-15 21:09:15.986 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-11-15 21:09:15.986 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==        Row: 1, 虎鲸, 211, 213, 虎皮鲨鱼, /image/d5154eaed72b475fa6e9c77dffe8eb91.png, 6, 789, 488
+2024-11-15 21:09:15.987 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==        Row: 2, 海藻, 100, 101, 海产藻类（Algae）的统称，通常固着于海底或某种固体结构上，是基础细胞所构成的单株或一长串的简单植物。, /image/ad1efdde44204c10b9951873e99f924e.png, 19, 13, 4
+2024-11-15 21:09:15.987 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m <==      Total: 2
+2024-11-15 21:09:15.998 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":211,"category2Id":213,"cover":"/image/d5154eaed72b475fa6e9c77dffe8eb91.png","description":"虎皮鲨鱼","docCount":6,"id":1,"name":"虎鲸","viewCount":789,"voteCount":488},{"category1Id":100,"category2Id":101,"cover":"/image/ad1efdde44204c10b9951873e99f924e.png","description":"海产藻类（Algae）的统称，通常固着于海底或某种固体结构上，是基础细胞所构成的单株或一长串的简单植物。","docCount":19,"id":2,"name":"海藻","viewCount":13,"voteCount":4}],"total":6},"message":"查询成功","success":true}
+2024-11-15 21:09:15.999 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：28 ms -------------
+2024-11-15 21:09:17.396 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:09:17.397 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2024-11-15 21:09:17.397 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.EbookController.list
+2024-11-15 21:09:17.397 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:09:17.397 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: [{"categoryId2":0,"page":1,"size":1000}]
+2024-11-15 21:09:17.402 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:09:17.402 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==>  Preparing: SELECT COUNT(*) AS total FROM ebook WHERE (category2_id = ?)
+2024-11-15 21:09:17.402 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 21:09:17.402 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 21:09:17.403 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:09:17.403 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==> Parameters: 0(Long)
+2024-11-15 21:09:17.403 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 21:09:17.403 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==    Columns: total
+2024-11-15 21:09:17.404 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 21:09:17.404 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==        Row: 0
+2024-11-15 21:09:17.405 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 21:09:17.405 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m <==      Total: 1
+2024-11-15 21:09:17.406 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"查询成功","success":true}
+2024-11-15 21:09:17.406 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 21:09:17.406 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2024-11-15 21:09:17.406 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 21:09:17.406 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 21:09:17.407 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 21:09:17.407 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 21:09:17.407 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 21:09:17.408 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 21:09:17.408 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 21:09:17.409 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 21:09:17.409 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 21:09:17.409 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 21:09:17.410 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 21:09:17.410 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 21:09:17.411 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 21:09:17.411 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2024-11-15 21:30:26.790 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:30:26.790 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:30:26.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 21:30:26.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2024-11-15 21:30:26.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 21:30:26.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.EbookController.list
+2024-11-15 21:30:26.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:30:26.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:30:26.792 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: [{"categoryId2":0,"page":1,"size":1000}]
+2024-11-15 21:30:26.792 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 21:30:26.793 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 21:30:26.794 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 21:30:26.796 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 21:30:26.796 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 21:30:26.797 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 21:30:26.796 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==>  Preparing: SELECT COUNT(*) AS total FROM ebook WHERE (category2_id = ?)
+2024-11-15 21:30:26.797 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 21:30:26.797 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==> Parameters: 0(Long)
+2024-11-15 21:30:26.797 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 21:30:26.798 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 21:30:26.798 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 21:30:26.798 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==    Columns: total
+2024-11-15 21:30:26.798 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 21:30:26.798 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 21:30:26.798 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==        Row: 0
+2024-11-15 21:30:26.799 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 21:30:26.799 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m <==      Total: 1
+2024-11-15 21:30:26.799 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"查询成功","success":true}
+2024-11-15 21:30:26.799 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 21:30:26.800 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2024-11-15 21:30:26.800 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 21:30:26.800 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 21:30:26.801 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 21:30:26.801 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：11 ms -------------
+2024-11-15 21:40:35.790 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:40:35.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 21:40:35.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 21:40:35.791 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2024-11-15 21:40:35.792 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 21:40:35.792 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.EbookController.list
+2024-11-15 21:40:35.792 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:40:35.792 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 21:40:35.792 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 21:40:35.792 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: [{"categoryId2":0,"page":1,"size":1000}]
+2024-11-15 21:40:35.796 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 21:40:35.798 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 21:40:35.801 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 21:40:35.801 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==>  Preparing: SELECT COUNT(*) AS total FROM ebook WHERE (category2_id = ?)
+2024-11-15 21:40:35.801 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 21:40:35.802 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==> Parameters: 0(Long)
+2024-11-15 21:40:35.802 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 21:40:35.803 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 21:40:35.803 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 21:40:35.804 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 21:40:35.804 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==    Columns: total
+2024-11-15 21:40:35.804 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 21:40:35.804 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==        Row: 0
+2024-11-15 21:40:35.804 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 21:40:35.804 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m <==      Total: 1
+2024-11-15 21:40:35.804 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 21:40:35.805 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"查询成功","success":true}
+2024-11-15 21:40:35.805 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 21:40:35.805 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2024-11-15 21:40:35.806 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 21:40:35.806 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 21:40:35.807 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 21:40:35.808 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 21:40:35.808 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：18 ms -------------
+2024-11-15 21:41:34.712 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-15 21:41:34.714 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-11-15 21:41:34.718 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-11-15 22:21:16.488 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2024-11-15 22:21:16.497 INFO  com.pzl.obwiki.ObwikiApplication                  :55   [32m                  [0;39m Starting ObwikiApplication using Java 1.8.0_131 on Centauri with PID 13528 (D:\Desktop\home\java\OceanBiologyWiki\target\classes started by 86181 in D:\Desktop\home\java\OceanBiologyWiki)
+2024-11-15 22:21:16.497 INFO  com.pzl.obwiki.ObwikiApplication                  :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-11-15 22:21:17.069 WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder  :127  [32m                  [0;39m For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-11-15 22:21:18.473 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2024-11-15 22:21:18.486 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2024-11-15 22:21:18.486 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-11-15 22:21:18.487 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-11-15 22:21:18.662 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-11-15 22:21:18.663 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2105 ms
+2024-11-15 22:21:22.013 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69   [32m                  [0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-15 22:21:22.148 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-15 22:21:22.354 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2024-11-15 22:21:22.370 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2024-11-15 22:21:22.371 INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160  [32m                  [0;39m Context refreshed
+2024-11-15 22:21:22.389 INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163  [32m                  [0;39m Found 1 custom documentation plugin(s)
+2024-11-15 22:21:22.418 INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41   [32m                  [0;39m Scanning for api listing references
+2024-11-15 22:21:22.547 INFO  com.pzl.obwiki.ObwikiApplication                  :61   [32m                  [0;39m Started ObwikiApplication in 6.568 seconds (JVM running for 8.84)
+2024-11-15 22:21:22.550 INFO  com.pzl.obwiki.ObwikiApplication                  :22   [32m                  [0;39m 项目启动成功!
+2024-11-15 22:21:22.550 INFO  com.pzl.obwiki.ObwikiApplication                  :23   [32m                  [0;39m 地址:	http://127.0.0.1:8880
+2024-11-15 22:23:41.418 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 22:23:41.419 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-11-15 22:23:41.420 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-11-15 22:23:41.467 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 22:23:41.468 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 22:23:41.468 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 22:23:41.468 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 22:23:41.527 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 22:23:41.607 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-11-15 22:23:41.836 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-11-15 22:23:41.842 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 22:23:41.859 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 22:23:41.871 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 22:23:41.872 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 22:23:41.876 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 22:23:41.876 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 22:23:41.877 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 22:23:41.877 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 22:23:41.878 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 22:23:41.878 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 22:23:41.879 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 22:23:41.880 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 22:23:41.881 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 22:23:41.881 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 22:23:41.882 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 22:23:41.930 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 22:23:41.931 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：467 ms -------------
+2024-11-15 22:23:42.138 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 22:23:42.139 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2024-11-15 22:23:42.139 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.EbookController.list
+2024-11-15 22:23:42.139 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 22:23:42.142 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: [{"page":1,"size":2}]
+2024-11-15 22:23:42.214 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==>  Preparing: SELECT COUNT(*) AS total FROM ebook
+2024-11-15 22:23:42.215 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 22:23:42.217 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==    Columns: total
+2024-11-15 22:23:42.218 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==        Row: 6
+2024-11-15 22:23:42.218 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m <==      Total: 1
+2024-11-15 22:23:42.222 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m ==>  Preparing: SELECT id,name,category1_id,category2_id,description,cover,doc_count,view_count,vote_count FROM ebook LIMIT ?
+2024-11-15 22:23:42.223 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m ==> Parameters: 2(Long)
+2024-11-15 22:23:42.224 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-11-15 22:23:42.225 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==        Row: 1, 虎鲸, 211, 213, 虎皮鲨鱼, /image/d5154eaed72b475fa6e9c77dffe8eb91.png, 6, 789, 488
+2024-11-15 22:23:42.226 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==        Row: 2, 海藻, 100, 101, 海产藻类（Algae）的统称，通常固着于海底或某种固体结构上，是基础细胞所构成的单株或一长串的简单植物。, /image/ad1efdde44204c10b9951873e99f924e.png, 19, 13, 4
+2024-11-15 22:23:42.228 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m <==      Total: 2
+2024-11-15 22:23:42.242 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":211,"category2Id":213,"cover":"/image/d5154eaed72b475fa6e9c77dffe8eb91.png","description":"虎皮鲨鱼","docCount":6,"id":1,"name":"虎鲸","viewCount":789,"voteCount":488},{"category1Id":100,"category2Id":101,"cover":"/image/ad1efdde44204c10b9951873e99f924e.png","description":"海产藻类（Algae）的统称，通常固着于海底或某种固体结构上，是基础细胞所构成的单株或一长串的简单植物。","docCount":19,"id":2,"name":"海藻","viewCount":13,"voteCount":4}],"total":6},"message":"查询成功","success":true}
+2024-11-15 22:23:42.243 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：105 ms -------------
+2024-11-15 22:23:46.919 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 22:23:46.920 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 22:23:46.920 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 22:23:46.920 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 22:23:46.921 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 22:23:46.922 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 22:23:46.923 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 22:23:46.925 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 22:23:46.925 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 22:23:46.926 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 22:23:46.926 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 22:23:46.926 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 22:23:46.927 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 22:23:46.928 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 22:23:46.930 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 22:23:46.931 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 22:23:46.931 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 22:23:46.932 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 22:23:46.932 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 22:23:46.933 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 22:23:46.936 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 22:23:46.937 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：18 ms -------------
+2024-11-15 22:23:47.609 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 22:23:47.610 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 22:23:47.610 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 22:23:47.610 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 22:23:47.610 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 22:23:47.612 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 22:23:47.612 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 22:23:47.613 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 22:23:47.613 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 22:23:47.614 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 22:23:47.614 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 22:23:47.614 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 22:23:47.615 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 22:23:47.615 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 22:23:47.615 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 22:23:47.616 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 22:23:47.616 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 22:23:47.616 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 22:23:47.617 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 22:23:47.617 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 22:23:47.618 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 22:23:47.618 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2024-11-15 22:23:47.627 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 22:23:47.628 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2024-11-15 22:23:47.628 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.EbookController.list
+2024-11-15 22:23:47.628 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 22:23:47.628 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: [{"page":1,"size":2}]
+2024-11-15 22:23:47.630 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==>  Preparing: SELECT COUNT(*) AS total FROM ebook
+2024-11-15 22:23:47.631 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 22:23:47.633 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==    Columns: total
+2024-11-15 22:23:47.633 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==        Row: 6
+2024-11-15 22:23:47.634 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m <==      Total: 1
+2024-11-15 22:23:47.634 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m ==>  Preparing: SELECT id,name,category1_id,category2_id,description,cover,doc_count,view_count,vote_count FROM ebook LIMIT ?
+2024-11-15 22:23:47.635 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m ==> Parameters: 2(Long)
+2024-11-15 22:23:47.636 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-11-15 22:23:47.636 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==        Row: 1, 虎鲸, 211, 213, 虎皮鲨鱼, /image/d5154eaed72b475fa6e9c77dffe8eb91.png, 6, 789, 488
+2024-11-15 22:23:47.637 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==        Row: 2, 海藻, 100, 101, 海产藻类（Algae）的统称，通常固着于海底或某种固体结构上，是基础细胞所构成的单株或一长串的简单植物。, /image/ad1efdde44204c10b9951873e99f924e.png, 19, 13, 4
+2024-11-15 22:23:47.638 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m <==      Total: 2
+2024-11-15 22:23:47.638 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":211,"category2Id":213,"cover":"/image/d5154eaed72b475fa6e9c77dffe8eb91.png","description":"虎皮鲨鱼","docCount":6,"id":1,"name":"虎鲸","viewCount":789,"voteCount":488},{"category1Id":100,"category2Id":101,"cover":"/image/ad1efdde44204c10b9951873e99f924e.png","description":"海产藻类（Algae）的统称，通常固着于海底或某种固体结构上，是基础细胞所构成的单株或一长串的简单植物。","docCount":19,"id":2,"name":"海藻","viewCount":13,"voteCount":4}],"total":6},"message":"查询成功","success":true}
+2024-11-15 22:23:47.639 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：12 ms -------------
+2024-11-15 22:23:55.313 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 22:23:55.314 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 22:23:55.314 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 22:23:55.314 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 22:23:55.314 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 22:23:55.316 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 22:23:55.316 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 22:23:55.317 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 22:23:55.317 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 22:23:55.318 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 22:23:55.318 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 22:23:55.318 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 22:23:55.319 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 22:23:55.319 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 22:23:55.319 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 22:23:55.319 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 22:23:55.320 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 22:23:55.320 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 22:23:55.320 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 22:23:55.321 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 22:23:55.322 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 22:23:55.322 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2024-11-15 22:23:55.330 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 22:23:55.331 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2024-11-15 22:23:55.331 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.EbookController.list
+2024-11-15 22:23:55.331 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 22:23:55.331 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: [{"page":1,"size":2}]
+2024-11-15 22:23:55.333 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==>  Preparing: SELECT COUNT(*) AS total FROM ebook
+2024-11-15 22:23:55.333 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 22:23:55.335 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==    Columns: total
+2024-11-15 22:23:55.335 TRACE c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:143  [32m                  [0;39m <==        Row: 6
+2024-11-15 22:23:55.336 DEBUG c.pzl.obwiki.mapper.EbookMapper.selectPage_mpCount:137  [32m                  [0;39m <==      Total: 1
+2024-11-15 22:23:55.337 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m ==>  Preparing: SELECT id,name,category1_id,category2_id,description,cover,doc_count,view_count,vote_count FROM ebook LIMIT ?
+2024-11-15 22:23:55.338 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m ==> Parameters: 2(Long)
+2024-11-15 22:23:55.339 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-11-15 22:23:55.339 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==        Row: 1, 虎鲸, 211, 213, 虎皮鲨鱼, /image/d5154eaed72b475fa6e9c77dffe8eb91.png, 6, 789, 488
+2024-11-15 22:23:55.340 TRACE com.pzl.obwiki.mapper.EbookMapper.selectPage      :143  [32m                  [0;39m <==        Row: 2, 海藻, 100, 101, 海产藻类（Algae）的统称，通常固着于海底或某种固体结构上，是基础细胞所构成的单株或一长串的简单植物。, /image/ad1efdde44204c10b9951873e99f924e.png, 19, 13, 4
+2024-11-15 22:23:55.340 DEBUG com.pzl.obwiki.mapper.EbookMapper.selectPage      :137  [32m                  [0;39m <==      Total: 2
+2024-11-15 22:23:55.341 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":211,"category2Id":213,"cover":"/image/d5154eaed72b475fa6e9c77dffe8eb91.png","description":"虎皮鲨鱼","docCount":6,"id":1,"name":"虎鲸","viewCount":789,"voteCount":488},{"category1Id":100,"category2Id":101,"cover":"/image/ad1efdde44204c10b9951873e99f924e.png","description":"海产藻类（Algae）的统称，通常固着于海底或某种固体结构上，是基础细胞所构成的单株或一长串的简单植物。","docCount":19,"id":2,"name":"海藻","viewCount":13,"voteCount":4}],"total":6},"message":"查询成功","success":true}
+2024-11-15 22:23:55.341 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：11 ms -------------
+2024-11-15 22:24:16.856 INFO  com.pzl.obwiki.aspect.LogAspect                   :48   [32m                  [0;39m ------------- 开始 -------------
+2024-11-15 22:24:16.858 INFO  com.pzl.obwiki.aspect.LogAspect                   :49   [32m                  [0;39m 请求地址: http://localhost:8880/category/all GET
+2024-11-15 22:24:16.858 INFO  com.pzl.obwiki.aspect.LogAspect                   :50   [32m                  [0;39m 类名方法: com.pzl.obwiki.controller.CategoryController.all
+2024-11-15 22:24:16.858 INFO  com.pzl.obwiki.aspect.LogAspect                   :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2024-11-15 22:24:16.859 INFO  com.pzl.obwiki.aspect.LogAspect                   :71   [32m                  [0;39m 请求参数: []
+2024-11-15 22:24:16.861 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==>  Preparing: SELECT id,parent,name,sort FROM category ORDER BY sort ASC
+2024-11-15 22:24:16.861 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m ==> Parameters: 
+2024-11-15 22:24:16.863 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2024-11-15 22:24:16.863 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 211, 0, 海洋动物, 1
+2024-11-15 22:24:16.864 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 213, 211, 海洋游泳动物, 1
+2024-11-15 22:24:16.865 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 100, 0, 海洋植物, 2
+2024-11-15 22:24:16.865 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 208, 207, test2, 2
+2024-11-15 22:24:16.866 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 212, 211, 海洋浮游动物, 2
+2024-11-15 22:24:16.866 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 200, 0, 微生物, 3
+2024-11-15 22:24:16.867 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 214, 211, 海洋底栖动物, 3
+2024-11-15 22:24:16.868 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 101, 100, 藻类植物, 101
+2024-11-15 22:24:16.868 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 102, 100, 红树林, 102
+2024-11-15 22:24:16.869 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 201, 200, 地下微生物, 201
+2024-11-15 22:24:16.869 TRACE com.pzl.obwiki.mapper.CategoryMapper.selectList   :143  [32m                  [0;39m <==        Row: 202, 200, 海洋微生物, 202
+2024-11-15 22:24:16.869 DEBUG com.pzl.obwiki.mapper.CategoryMapper.selectList   :137  [32m                  [0;39m <==      Total: 11
+2024-11-15 22:24:16.871 INFO  com.pzl.obwiki.aspect.LogAspect                   :85   [32m                  [0;39m 返回结果: {"content":[{"id":211,"name":"海洋动物","parent":0,"sort":1},{"id":213,"name":"海洋游泳动物","parent":211,"sort":1},{"id":100,"name":"海洋植物","parent":0,"sort":2},{"id":208,"name":"test2","parent":207,"sort":2},{"id":212,"name":"海洋浮游动物","parent":211,"sort":2},{"id":200,"name":"微生物","parent":0,"sort":3},{"id":214,"name":"海洋底栖动物","parent":211,"sort":3},{"id":101,"name":"藻类植物","parent":100,"sort":101},{"id":102,"name":"红树林","parent":100,"sort":102},{"id":201,"name":"地下微生物","parent":200,"sort":201},{"id":202,"name":"海洋微生物","parent":200,"sort":202}],"message":"查询成功","success":true}
+2024-11-15 22:24:16.871 INFO  com.pzl.obwiki.aspect.LogAspect                   :86   [32m                  [0;39m ------------- 结束 耗时：15 ms -------------
+2024-11-15 22:50:34.534 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-15 22:50:34.536 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-11-15 22:50:34.540 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
