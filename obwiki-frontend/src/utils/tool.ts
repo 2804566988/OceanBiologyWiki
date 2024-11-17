@@ -1,19 +1,34 @@
 export class Tool {
+
+  public static customSerializer(obj: any) {
+    const seen = new WeakSet();
+    return JSON.stringify(obj, (key, value) => {
+        if (typeof value === 'object' && value !== null) {
+            if (seen.has(value)) {
+                return undefined; // 或者返回其他占位符
+            }
+            seen.add(value);
+        }
+        return value;
+    });
+}
+
   /**
    * 空校验 null或""都返回true
    */
-  public static isEmpty(obj: any) {
+  public static isEmpty (obj: any) {
     if ((typeof obj === 'string')) {
       return !obj || obj.replace(/\s+/g, "") === ""
     } else {
-      return (!obj || JSON.stringify(obj) === "{}" || obj.length === 0);
+      //return (!obj || JSON.stringify(obj) === "{}" || obj.length === 0);
+      return (!obj || Tool.customSerializer(obj) === "{}" || obj.length === 0);
     }
   }
 
   /**
    * 非空校验
    */
-  public static isNotEmpty(obj: any) {
+  public static isNotEmpty (obj: any) {
     return !this.isEmpty(obj);
   }
 
@@ -21,9 +36,10 @@ export class Tool {
    * 对象复制
    * @param obj
    */
-  public static copy(obj: object) {
+  public static copy (obj: object) {
     if (Tool.isNotEmpty(obj)) {
-      return JSON.parse(JSON.stringify(obj));
+      //return JSON.parse(JSON.stringify(obj));
+      return JSON.parse(Tool.customSerializer(obj));
     }
   }
 
@@ -31,14 +47,14 @@ export class Tool {
    * 使用递归将数组转为树形结构
    * 父ID属性为parent
    */
-  public static array2Tree(array: any, parentId: number) {
+  public static array2Tree (array: any, parentId: number) {
     if (Tool.isEmpty(array)) {
       return [];
     }
     const result = [];
     for (let i = 0; i < array.length; i++) {
       const c = array[i];
-      //console.log(String(c.parent), String(parentId));
+       console.log(String(c.parent), String(parentId));
       if (String(c.parent) === String(parentId)) {
         result.push(c);
 
@@ -58,7 +74,7 @@ export class Tool {
    * @param radix 默认62
    * @returns {string}
    */
-  public static uuid(len: number, radix = 62) {
+  public static uuid (len: number, radix = 62) {
     const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
     const uuid = [];
     radix = radix || chars.length;
